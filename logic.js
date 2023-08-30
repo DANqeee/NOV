@@ -1,6 +1,6 @@
 class UserData {
     constructor(username, email, password, birthday) {
-        this.name = username;
+        this.username = username;
         this.email = email;
         this.password = password;
         this.birthday = birthday;
