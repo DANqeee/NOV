@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <base href="{{site.baseurl}}" />
     <meta charset="UTF-8">
     <title>Nov</title>
     <link rel="icon" type="image/png" href="icon/people.png" >
     <link rel="stylesheet" href="discord%20copy(CSS).css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -31,7 +33,7 @@
             </div>
             <div class="data">
                 <span>дата_рождения</span>
-                <input type="date">
+                <input id="dateInput" type="date">
             </div>
             <div class="license">
                 <input type="checkbox">
@@ -40,7 +42,7 @@
                 рассылки можно отписаться в любое время.</pre>
             </div>
             <div class="buttonReg">
-                <button>Продолжить</button>
+                <button onclick="submitForm()">Продолжить</button>
                 <span>Регистрируясь, вы соглашаетесь с условиями использования политикой <br> конфиденциальности  Discord.</span>
             </div>
             <div class="exitButton">
@@ -58,7 +60,7 @@
         <div class="okno__title">
             <label for="oknoInput"></label>
             <input type="text" id="oknoInput" placeholder="kod">
-            <button id="button">Отправить</button>
+            <button id="button" onclick="checkCode()">Отправить</button>
         </div>
         <div class="okno__text">
             Введите код который прищёл  на вашу почту
@@ -66,5 +68,7 @@
     </div>
 </div>
 </div>
+
+<script src="logic.js"></script>
 </body>
 </html>
