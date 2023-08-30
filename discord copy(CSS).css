@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,900;1,100;1,400;1,900&family=Roboto:ital,wght@1,900&display=swap');
+body{
+    background: linear-gradient(225deg, rgba(0,173,181,1) 0%, rgba(55,66,74,1) 55%, rgba(57,62,70,1) 62%, rgba(34,40,49,1) 100%);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+.mainBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #111111;
+}
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background: #393e46;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 3%;
+    align-items: center;
+}
+.mainForm span{
+    position: absolute;
+    right: 18%;
+    top: 20%;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(0, 255, 167) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 27px;
+}
+img {
+    width: 50%;
+    height: 90%;
+    scale:90%;
+}
+     label {
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(0, 255, 167) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    width: 60%;
+    height: 50%;
+         position: absolute;
+         right: 40%;
+         top: -48%;
+}
+input {
+    height: 60%;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    padding: 1%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #00adb5;
+    transition: all 0.2s ease;
+}
+
+.loginBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 8%;
+    width: 40%;
+    position: absolute;
+    right: 7%;
+    top: 30%;
+    box-sizing: border-box;
+    align-items:flex-start;
+}
+.passwordBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 6%;
+    width: 40%;
+    position: absolute;
+    right: 7%;
+    top: 50%;
+}
+.MailBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 6%;
+    width: 40%;
+    position: absolute;
+    right: 7%;
+    top: 40%;
+}
+.data {
+    height: 6%;
+    width: 40%;
+    position: absolute;
+    right: 7%;
+    top: 60%;
+}
+.data input:hover, .data input:focus{
+    background: transparent;
+    border-color: rgb(0, 173, 181);
+    color: rgb(0, 173, 181);
+    outline: none;
+}
+.data span{
+    position: absolute;
+    right: 81%;
+    top: -48%;
+    font-size: 20px;
+}
+#mailInput{
+   border: 2px solid #00adb5;
+    width: 70%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+#mailInput:hover,#mailInput:focus{
+    background: transparent;
+    border-color: rgb(0, 173, 181);
+    color: rgb(0, 173, 181);
+    outline: none;
+}
+#passwordInput:hover,#passwordInput:focus{
+    background: transparent;
+    border-color: rgb(0, 173, 181);
+    color: rgb(0, 173, 181);
+    outline: none;
+}
+#nameInput:hover,#nameInput:focus{
+    background: transparent;
+    border-color: rgb(0, 173, 181);
+    color: rgb(0, 173, 181);
+    outline: none;
+}
+
+#nameInput{
+    width: 70%;
+    height: 70%;
+    border-radius: 6px;
+}
+#passwordInput{
+    border: 2px solid #00adb5;
+    width: 70%;
+    height: 100%;
+    border-radius: 6px;
+}
+.license{
+    color: #222831;
+    position: absolute;
+    right: 21%;
+    top: 65%;
+}
+.license input{
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    right: 64%;
+    top: 24%;
+}
+.buttonReg button{
+    width:28%;
+    height:6% ;
+    position: absolute;
+    right: 19%;
+    top: 73%;
+    border-radius:13px;
+    font-size: 30px;
+    color: #00adb5;
+    background: #222831;
+    border-color: rgb(0, 173, 181);
+
+}
+.login span{
+    position: absolute;
+    right: 34%;
+    top: 86%;
+    font-size: 20px;
+}
+.name span {
+    position: absolute;
+    right: 9%;
+    top: 1%;
+    font-size: 70px;
+    font-family: " Italic";
+}
+.buttonReg span {
+    position: absolute;
+    right:20%;
+    top: 80%;
+    font-size: 15px;
+    -webkit-text-fill-color: initial !important;
+    background: transparent;
+    color: #222831;
+}
+.exitButton span{
+    position: absolute;
+    right:50%;
+    top: 5%;
+    font-size: 20px;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height:100% ;
+    width: 100%;
+    right: -8%;
+    top: -1%;
+}
+.buttonReg button :hover{
+    background: transparent;
+    border-color: rgb(0, 173, 181);
+    color: rgb(0, 173, 181);
+
+}
