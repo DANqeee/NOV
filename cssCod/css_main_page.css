@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,900;1,100;1,400;1,900&family=Roboto:ital,wght@1,900&display=swap');
+body{
+    background: linear-gradient(225deg, rgba(0,173,181,1) 0%, rgba(55,66,74,1) 55%, rgba(57,62,70,1) 62%, rgba(34,40,49,1) 100%);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+.mainBox{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #111111;
+}
+
+.side_panel{
+    display: flex;
+    align-items: flex-start;
+    background: #111111;
+    width: 25%;
+    height: 100%;
+}
+.main_panel{
+    width: 75%;
+    height: 100%;
+    background: #4d535b;
+}
+.upper_part{
+    display: flex;
+    align-items: center;
+    background: #111111;
+    width: 100%;
+    height: 20%;
+}
+#search{
+    width: 13%;
+    height: 4%;
+    position: absolute;
+    top: 3%;
+    right: 67.8%;
+}
+.Extensions{
+    position: absolute;
+    top: 10%;
+    right: 76%;
+    color: aliceblue;
+}
+.Themes{
+    position: absolute;
+    top: 15%;
+    right: 78.7%;
+    color: aliceblue;
+}
+.Categories{
+    position: absolute;
+    top: 22%;
+    right: 76.8%;
+    color: aliceblue;
+}
+.All{
+    position: absolute;
+    top: 26%;
+    right: 79.2%;
+    color: aliceblue;
+}
+.Recommended{
+    position: absolute;
+    top: 30%;
+    right: 74.4%;
+    color: aliceblue;
+}
+.Developer_Tools{
+    position: absolute;
+    top: 34%;
+    right: 70%;
+    color: aliceblue;
+}
+.News_and_weather{
+    position: absolute;
+    top: 38%;
+    right: 74%;
+    color: aliceblue;
+}
+.Purchases{
+    position: absolute;
+    top: 42%;
+    right: 77.5%;
+    color: aliceblue;
+}
+.Work{
+    position: absolute;
+    top: 46%;
+    right: 78%;
+    color: aliceblue;
+}
+.Entertainments{
+    position: absolute;
+    top: 50%;
+    right: 76%;
+    color: aliceblue;
+}
+.Social_networks_and_communication{
+    position: absolute ;
+    top: 54%;
+    right: 70%;
+    color: aliceblue;
+}
+.Special_features{
+    position: absolute;
+    top: 58%;
+    right: 70.5%;
+    color: aliceblue;
+}
+.Photo{
+    position: absolute;
+    top: 62%;
+    right: 79.2%;
+    color: aliceblue;
+}
+.line{
+    width: 13%;
+    height: 0.3%;
+    position: absolute;
+    top: 66%;
+    right: 68%;
+    background: #00adb5;
+}
+.Politics{
+    position: absolute;
+    top: 70%;
+    right: 69%;
+    color: aliceblue;
+}
+.Conditions{
+    position: absolute;
+    top: 74%;
+    right: 72%;
+    color: aliceblue;
+}
+.More_detailed{
+    position: absolute;
+    top: 78%;
+    right: 72%;
+    color: aliceblue;
+}
+.line1{
+    width: 13%;
+    height: 0.3%;
+    position: absolute;
+    top: 20%;
+    right: 68%;
+    background: #00adb5;
+}
+.advertisement{
+    position: absolute;
+    top: 4%;
+    right: 30%;
+}
+.main_line{
+    width: 180%;
+    height: 1%;
+    position: absolute;
+    top: 120%;
+    right: -220px;
+    background: #00adb5;
+}
+.back{
+    width: 10%;
+    height: 17%;
+    position: absolute;
+    top: 45%;
+    right: 110%;
+    border-radius: 100px;
+    font-size: 40px;
+    background: #111111;
+    color: #00adb5;
+    border: 2px solid #00adb5;
+}
+.forward{
+    width: 10%;
+    height: 17%;
+    position: absolute;
+    top: 45%;
+    right: -15%;
+    border-radius: 100px;
+    font-size: 40px;
+    background: #111111;
+    color: #00adb5;
+    border: 2px solid #00adb5;
+}
+.circle1{
+    width: 3%;
+    height: 5%;
+    border-radius: 100px;
+    font-size: 40px;
+    border: 2px solid #00adb5;
+    position: absolute;
+    top: 105%;
+    right: 40%;
+}
+.circle2{
+    width: 3%;
+    height: 5%;
+    border-radius: 100px;
+    font-size: 40px;
+    border: 2px solid #00adb5;
+    position: absolute;
+    top: 105%;
+    right: 45%;
+}
+.circle3{
+    width: 3%;
+    height: 5%;
+    border-radius: 100px;
+    font-size: 40px;
+    border: 2px solid #00adb5;
+    position: absolute;
+    top: 105%;
+    right: 50%;
+}
+.circle4{
+    width: 3%;
+    height: 5%;
+    border-radius: 100px;
+    font-size: 40px;
+    border: 2px solid #00adb5;
+    position: absolute;
+    top: 105%;
+    right: 55%;
+}
+.circle5{
+    width: 3%;
+    height: 5%;
+    border-radius: 100px;
+    font-size: 40px;
+    border: 2px solid #00adb5;
+    position: absolute;
+    top: 105%;
+    right: 60%;
+    background: #111111;
+}
+
