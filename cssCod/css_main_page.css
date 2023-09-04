@@ -19,11 +19,12 @@ body{
 }
 
 .side_panel{
-    display: flex;
-    align-items: flex-start;
+
     background: #111111;
     width: 25%;
     height: 100%;
+    display: flex;
+    align-items: center;
 }
 .main_panel{
     width: 75%;
@@ -43,12 +44,29 @@ body{
     position: absolute;
     top: 3%;
     right: 67.8%;
+    border-radius: 20px;
+    border: 2px solid #00adb5;
+}
+#search:hover,#search:focus{
+    background: transparent;
+    border-color: rgb(0, 187, 196);
+    color: rgb(0, 186, 194);
+    outline: none;
 }
 .Extensions{
     position: absolute;
-    top: 10%;
+    top: 11%;
     right: 76%;
     color: aliceblue;
+}
+.Extensions:hover,.Extensions:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 11%;
+    right: 75%;
 }
 .Themes{
     position: absolute;
@@ -56,17 +74,46 @@ body{
     right: 78.7%;
     color: aliceblue;
 }
+.Themes:hover,.Themes:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 15%;
+    right: 78.4%;
+}
 .Categories{
     position: absolute;
     top: 22%;
     right: 76.8%;
     color: aliceblue;
 }
+.Categories:hover,.Categories:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 22%;
+    right: 76%;
+}
 .All{
     position: absolute;
     top: 26%;
     right: 79.2%;
     color: aliceblue;
+    display: flex;
+    align-items: inherit;
+}
+.All:hover,.All:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 26%;
+    right: 79%;
 }
 .Recommended{
     position: absolute;
@@ -74,11 +121,29 @@ body{
     right: 74.4%;
     color: aliceblue;
 }
+.Recommended:hover,.Recommended:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 30%;
+    right: 73%;
+}
 .Developer_Tools{
     position: absolute;
     top: 34%;
     right: 70%;
     color: aliceblue;
+}
+.Developer_Tools:hover,.Developer_Tools:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 34%;
+    right: 68%;
 }
 .News_and_weather{
     position: absolute;
@@ -86,11 +151,29 @@ body{
     right: 74%;
     color: aliceblue;
 }
+.News_and_weather:hover,.News_and_weather:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 38%;
+    right: 72.5%;
+}
 .Purchases{
     position: absolute;
     top: 42%;
     right: 77.5%;
     color: aliceblue;
+}
+.Purchases:hover,.Purchases:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 42%;
+    right: 77%;
 }
 .Work{
     position: absolute;
@@ -98,11 +181,29 @@ body{
     right: 78%;
     color: aliceblue;
 }
+.Work:hover,.Work:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 46%;
+    right: 77.5%;
+}
 .Entertainments{
     position: absolute;
     top: 50%;
     right: 76%;
     color: aliceblue;
+}
+.Entertainments:hover,.Entertainments:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: 75%;
 }
 .Social_networks_and_communication{
     position: absolute ;
@@ -110,17 +211,44 @@ body{
     right: 70%;
     color: aliceblue;
 }
+.Social_networks_and_communication:hover,.Social_networks_and_communication:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 54%;
+    right: 67.5%;
+}
 .Special_features{
     position: absolute;
     top: 58%;
     right: 70.5%;
     color: aliceblue;
 }
+.Special_features:hover,.Special_features:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 58%;
+    right: 68%;
+}
 .Photo{
     position: absolute;
     top: 62%;
     right: 79.2%;
     color: aliceblue;
+}
+.Photo:hover,.Photo:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 62%;
+    right: 79%;
 }
 .line{
     width: 13%;
@@ -136,17 +264,44 @@ body{
     right: 69%;
     color: aliceblue;
 }
+.Politics:hover,.Politics:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 70%;
+    right: 66.5%;
+}
 .Conditions{
     position: absolute;
     top: 74%;
     right: 72%;
     color: aliceblue;
 }
+.Conditions:hover,.Conditions:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 74%;
+    right: 70%;
+}
 .More_detailed{
     position: absolute;
     top: 78%;
     right: 72%;
     color: aliceblue;
+}
+.More_detailed:hover,.More_detailed:focus{
+    font-size: 20px;
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 78%;
+    right: 70%;
 }
 .line1{
     width: 13%;
@@ -181,6 +336,12 @@ body{
     color: #00adb5;
     border: 2px solid #00adb5;
 }
+.back:hover{
+    background: transparent;
+    border-color: rgb(0, 187, 196);
+    color: rgb(0, 186, 194);
+    outline: none;
+}
 .forward{
     width: 10%;
     height: 17%;
@@ -193,6 +354,12 @@ body{
     color: #00adb5;
     border: 2px solid #00adb5;
 }
+.forward:hover{
+    background: transparent;
+    border-color: rgb(0, 187, 196);
+    color: rgb(0, 186, 194);
+    outline: none;
+}
 .circle1{
     width: 3%;
     height: 5%;
@@ -202,6 +369,10 @@ body{
     position: absolute;
     top: 105%;
     right: 40%;
+}
+.circle1:hover,.circle2:hover,.circle3:hover,.circle4:hover{
+    background: #111111;
+
 }
 .circle2{
     width: 3%;
@@ -243,5 +414,70 @@ body{
     top: 105%;
     right: 60%;
     background: #111111;
+}
+.shelf1{
+    width: 100%;
+    height: 25%;
+    transform: translate(0,430px);
+    display: flex;
+    align-items: center;
+}
+.shelf2{
+    width: 100%;
+    height: 25%;
+    transform: translate(0,455px);
+    display: flex;
+    align-items: center;
+}
+.post1{
+    transform: translate(8%,0px);
+    font-size: 20px;
+    width: 30%;
+    height: 100%;
+}
+.post2{
+    transform: translate(16%,0px);
+    font-size: 20px;
+    width: 30%;
+    height: 100%;
+}
+.post3{
+    transform: translate(24%,0px);
+    font-size: 20px;
+    width: 30%;
+    height: 100%;
+}
+.img1{
+
+    width:100%;
+    height: 70%;
+}
+.img2{
+    background: #ffffff;
+    width:100%;
+    height: 70%;
+}
+.img3{
+    background: #ffffff;
+    width:100%;
+    height: 70%;
+}
+.divSpan1{
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translate(4px,16px);
+}
+.divSpan2{
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translate(4px,16px);
+}
+.divSpan3{
+    background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translate(4px,16px);
 }
 
