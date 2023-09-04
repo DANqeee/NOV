@@ -33,17 +33,17 @@ body{
 }
 .upper_part{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: start;
     background: #111111;
     width: 100%;
-    height: 20%;
+    height: 100%;
+
 }
 #search{
-    width: 13%;
+    width: 85%;
     height: 4%;
-    position: absolute;
-    top: 3%;
-    right: 67.8%;
+    transform: translate(20px,160px);
     border-radius: 20px;
     border: 2px solid #00adb5;
 }
@@ -54,9 +54,7 @@ body{
     outline: none;
 }
 .Extensions{
-    position: absolute;
-    top: 11%;
-    right: 76%;
+    transform: translate(30px,185px);
     color: aliceblue;
 }
 .Extensions:hover,.Extensions:focus{
@@ -64,14 +62,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 11%;
-    right: 75%;
+
 }
 .Themes{
-    position: absolute;
-    top: 15%;
-    right: 78.7%;
+    transform: translate(30px,200px);
     color: aliceblue;
 }
 .Themes:hover,.Themes:focus{
@@ -79,14 +73,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 15%;
-    right: 78.4%;
+
 }
 .Categories{
-    position: absolute;
-    top: 22%;
-    right: 76.8%;
+    transform: translate(30px,210px);
     color: aliceblue;
 }
 .Categories:hover,.Categories:focus{
@@ -94,14 +84,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 22%;
-    right: 76%;
+
 }
 .All{
-    position: absolute;
-    top: 26%;
-    right: 79.2%;
+    transform: translate(30px,225px);
     color: aliceblue;
     display: flex;
     align-items: inherit;
@@ -111,14 +97,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 26%;
-    right: 79%;
+
 }
 .Recommended{
-    position: absolute;
-    top: 30%;
-    right: 74.4%;
+    transform: translate(30px,240px);
     color: aliceblue;
 }
 .Recommended:hover,.Recommended:focus{
@@ -126,14 +108,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 30%;
-    right: 73%;
+
 }
 .Developer_Tools{
-    position: absolute;
-    top: 34%;
-    right: 70%;
+    transform: translate(30px,255px);
     color: aliceblue;
 }
 .Developer_Tools:hover,.Developer_Tools:focus{
@@ -141,14 +119,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 34%;
-    right: 68%;
+
 }
 .News_and_weather{
-    position: absolute;
-    top: 38%;
-    right: 74%;
+    transform: translate(30px,270px);
     color: aliceblue;
 }
 .News_and_weather:hover,.News_and_weather:focus{
@@ -156,14 +130,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 38%;
-    right: 72.5%;
+
 }
 .Purchases{
-    position: absolute;
-    top: 42%;
-    right: 77.5%;
+    transform: translate(30px,285px);
     color: aliceblue;
 }
 .Purchases:hover,.Purchases:focus{
@@ -171,14 +141,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 42%;
-    right: 77%;
+
 }
 .Work{
-    position: absolute;
-    top: 46%;
-    right: 78%;
+    transform: translate(30px,300px);
     color: aliceblue;
 }
 .Work:hover,.Work:focus{
@@ -186,14 +152,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 46%;
-    right: 77.5%;
+
 }
 .Entertainments{
-    position: absolute;
-    top: 50%;
-    right: 76%;
+    transform: translate(30px,315px);
     color: aliceblue;
 }
 .Entertainments:hover,.Entertainments:focus{
@@ -201,14 +163,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 50%;
-    right: 75%;
+
 }
 .Social_networks_and_communication{
-    position: absolute ;
-    top: 54%;
-    right: 70%;
+    transform: translate(30px,330px);
     color: aliceblue;
 }
 .Social_networks_and_communication:hover,.Social_networks_and_communication:focus{
@@ -216,14 +174,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 54%;
-    right: 67.5%;
+
 }
 .Special_features{
-    position: absolute;
-    top: 58%;
-    right: 70.5%;
+    transform: translate(30px,345px);
     color: aliceblue;
 }
 .Special_features:hover,.Special_features:focus{
@@ -231,14 +185,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 58%;
-    right: 68%;
+
 }
 .Photo{
-    position: absolute;
-    top: 62%;
-    right: 79.2%;
+    transform: translate(30px,360px);
     color: aliceblue;
 }
 .Photo:hover,.Photo:focus{
@@ -246,22 +196,16 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 62%;
-    right: 79%;
+
 }
 .line{
-    width: 13%;
+    width: 85%;
     height: 0.3%;
-    position: absolute;
-    top: 66%;
-    right: 68%;
+    transform: translate(20px,370px);
     background: #00adb5;
 }
 .Politics{
-    position: absolute;
-    top: 70%;
-    right: 69%;
+    transform: translate(30px,375px);
     color: aliceblue;
 }
 .Politics:hover,.Politics:focus{
@@ -269,14 +213,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 70%;
-    right: 66.5%;
+
 }
 .Conditions{
-    position: absolute;
-    top: 74%;
-    right: 72%;
+    transform: translate(30px,390px);
     color: aliceblue;
 }
 .Conditions:hover,.Conditions:focus{
@@ -284,14 +224,10 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 74%;
-    right: 70%;
+
 }
 .More_detailed{
-    position: absolute;
-    top: 78%;
-    right: 72%;
+    transform: translate(30px,400px);
     color: aliceblue;
 }
 .More_detailed:hover,.More_detailed:focus{
@@ -299,16 +235,12 @@ body{
     background: linear-gradient(202deg, rgb(0, 245, 255) 0%, rgb(93, 205, 239) 56%, rgba(238,238,238,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    top: 78%;
-    right: 70%;
+
 }
 .line1{
-    width: 13%;
+    width: 85%;
     height: 0.3%;
-    position: absolute;
-    top: 20%;
-    right: 68%;
+    transform: translate(20px,205px);
     background: #00adb5;
 }
 .advertisement{
@@ -480,4 +412,3 @@ body{
     -webkit-text-fill-color: transparent;
     transform: translate(4px,16px);
 }
-
